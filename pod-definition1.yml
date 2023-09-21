@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: ngnix
+  labels:
+    creator: chaitu
+    type: proxy
+
+spec:
+  containers:
+    - name: mynginx
+      image: nginx
+
+
+
+...
